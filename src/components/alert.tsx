@@ -6,7 +6,7 @@ interface props {
   color?: "warning" | "success" | "secondary" | "primary" | "dark";
 }
 
-function Alert({ children, onClose, color = "warning" }: props) {
+function Alert({ children, onClose, color = "success" }: props) {
   return (
     <div
       className={`alert alert-${color} alert-dismissible fade show`}

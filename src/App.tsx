@@ -18,7 +18,7 @@ function App() {
       {AlertVisibility === true ? (
         <Alert onClose={handleClose}>Hello!</Alert>
       ) : null}
-      <MyButton onclick={handleClick} color="dark">
+      <MyButton onclick={handleClick} color="secondary">
         Hello
       </MyButton>
     </div>
